@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng2.Scenario3">
+      <class name="Listners.Facebook">
         <methods>
           <include name="signup"/>
+          <include name="forgot"/>
           <include name="tearDown"/>
           <include name="browserSetUp"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- testng2.Scenario3 -->
+      </class> <!-- Listners.Facebook -->
     </classes>
-  </test> <!-- Test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

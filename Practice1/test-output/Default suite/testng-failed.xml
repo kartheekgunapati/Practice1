@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.Fbscenarios">
+      <class name="Listners.Facebook">
         <methods>
-          <include name="browserSetUp"/>
-          <include name="forgot"/>
           <include name="signup"/>
-          <include name="login"/>
+          <include name="forgot"/>
           <include name="tearDown"/>
+          <include name="browserSetUp"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- testng.Fbscenarios -->
+      </class> <!-- Listners.Facebook -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
