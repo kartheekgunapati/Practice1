@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listners.Facebook">
+      <class name="Listners.Fbtestcases2">
         <methods>
-          <include name="signup"/>
-          <include name="forgot"/>
           <include name="tearDown"/>
           <include name="browserSetUp"/>
+          <include name="signup"/>
           <include name="login"/>
+          <include name="forgot"/>
         </methods>
-      </class> <!-- Listners.Facebook -->
+      </class> <!-- Listners.Fbtestcases2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
