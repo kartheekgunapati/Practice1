@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Windows.Windows1">
+      <class name="Windows.Windows3">
         <methods>
           <include name="browserSetUp"/>
-          <include name="flipKart1"/>
+          <include name="flipkartOption3"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Windows.Windows1 -->
+      </class> <!-- Windows.Windows3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
