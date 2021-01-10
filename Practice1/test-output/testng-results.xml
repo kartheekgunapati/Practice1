@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-19T19:13:42 IST" name="Default suite" finished-at="2020-12-19T19:14:14 IST" duration-ms="31084">
+  <suite started-at="2021-01-10T20:37:13 IST" name="Default suite" finished-at="2021-01-10T20:37:31 IST" duration-ms="17909">
     <groups>
     </groups>
-    <test started-at="2020-12-19T19:13:42 IST" name="Default test" finished-at="2020-12-19T19:14:14 IST" duration-ms="31084">
-      <class name="Windows.Windows3">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:Windows.Windows3@318ba8c8]" started-at="2020-12-19T19:13:42 IST" name="browserSetUp" finished-at="2020-12-19T19:13:52 IST" duration-ms="9239" status="PASS">
+    <test started-at="2021-01-10T20:37:13 IST" name="Default test" finished-at="2021-01-10T20:37:31 IST" duration-ms="17909">
+      <class name="Windows.Window4">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:Windows.Window4@54c562f7]" started-at="2021-01-10T20:37:13 IST" name="browserSetUp" finished-at="2021-01-10T20:37:20 IST" duration-ms="6657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="flipkartOption3()[pri:0, instance:Windows.Windows3@318ba8c8]" started-at="2020-12-19T19:13:52 IST" name="flipkartOption3" finished-at="2020-12-19T19:14:13 IST" duration-ms="20842" status="PASS">
+        <test-method signature="flipKart()[pri:0, instance:Windows.Window4@54c562f7]" started-at="2021-01-10T20:37:20 IST" name="flipKart" finished-at="2021-01-10T20:37:28 IST" duration-ms="7819" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- flipkartOption3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Windows.Windows3@318ba8c8]" started-at="2020-12-19T19:14:13 IST" name="tearDown" finished-at="2020-12-19T19:14:14 IST" duration-ms="933" status="PASS">
+        </test-method> <!-- flipKart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Windows.Window4@54c562f7]" started-at="2021-01-10T20:37:28 IST" name="tearDown" finished-at="2021-01-10T20:37:31 IST" duration-ms="3382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Windows.Windows3 -->
+      </class> <!-- Windows.Window4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
