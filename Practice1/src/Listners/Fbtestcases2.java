@@ -23,6 +23,8 @@ public class Fbtestcases2 extends BaseClass{
 		String tittle = driver.getTitle();
 		System.out.println("Tittle : "+tittle);
 		Assert.assertTrue(tittle.contains("Facebook"));
+		
+		
 	}
 	
 	@Test(dependsOnMethods="forgot")

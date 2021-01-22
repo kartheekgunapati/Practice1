@@ -23,6 +23,7 @@ public class facebook {
 		System.out.println("Get ATTRIBUTE : "+fname);
 		driver.quit();*/
 		System.out.println("Get TEXT : "+label);
+		
 		driver.quit();
 	}
 
